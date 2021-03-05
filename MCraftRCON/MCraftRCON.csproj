@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreRCON" Version="5.0.2" />
+    <!--<PackageReference Include="Microsoft.DotNet.ILCompiler" Version="6.0.0-preview.3.21153.3" />-->
+  </ItemGroup>
+
+</Project>
